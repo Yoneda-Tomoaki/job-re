@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown pre {
+  @apply bg-gray-100 rounded p-[8px];
+}
+
+.markdown pre code {
+  @apply block bg-transparent p-0 overflow-visible rounded-none w-full overflow-x-scroll;
+}
+
+.markdown h3 {
+  @apply leading-snug text-lg font-semibold mb-4 mt-6;
+}
